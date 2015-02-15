@@ -137,7 +137,7 @@ The default region is `US EAST`
 
 ## Limitations
 
-Only works with debian based OS's.
+Works with debian and redhat based OS's.
 
 ## Development
 
