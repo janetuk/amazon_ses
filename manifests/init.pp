@@ -50,7 +50,7 @@
 #
 # === Variables
 #
-# [*region_url*] 
+# [*region_url*]
 #   The full url based on the region for the SES smtp server
 #
 # [*region_url2*]
@@ -123,15 +123,18 @@ class amazon_ses (
   $ses_data = {
     us_east => {
       region_url  => "email-smtp.us-east-1.amazonaws.com:${smtp_port}",
-      region_url2 => "ses-smtp-prod-335357831.us-east-1.elb.amazonaws.com:${smtp_port}",
+      region_url2 =>
+"ses-smtp-prod-335357831.us-east-1.elb.amazonaws.com:${smtp_port}",
     },
     us_west => {
       region_url  => "email-smtp.us-west-2.amazonaws.com:${smtp_port}",
-      region_url2 => "ses-smtp-us-west-2-prod-14896026.us-west-2.elb.amazonaws.com:${smtp_port}",
+      region_url2 =>
+"ses-smtp-us-west-2-prod-14896026.us-west-2.elb.amazonaws.com:${smtp_port}",
     },
     eu => {
       region_url  => "email-smtp.eu-west-1.amazonaws.com:${smtp_port}",
-      region_url2 => "ses-smtp-eu-west-1-prod-345515633.eu-west-1.elb.amazonaws.com:${smtp_port}",
+      region_url2 =>
+"ses-smtp-eu-west-1-prod-345515633.eu-west-1.elb.amazonaws.com:${smtp_port}",
     },
   }
 
