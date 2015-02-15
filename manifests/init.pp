@@ -104,13 +104,13 @@ class amazon_ses (
   $domain,
   $smtp_username,
   $smtp_password,
-  $inet_interfaces = $::amazon_ses::params::default_inet_interfaces,
-  $inet_protocols = $::amazon_ses::params::default_inet_protocols,
-  $ses_region = $::amazon_ses::params::default_ses_region,
-  $smtp_port = $::amazon_ses::params::default_smtp_port,
-  $smtp_tls_ca_file = $::amazon_ses::params::default_smtp_tls_ca_file,
+  $inet_interfaces     = $::amazon_ses::params::default_inet_interfaces,
+  $inet_protocols      = $::amazon_ses::params::default_inet_protocols,
+  $ses_region          = $::amazon_ses::params::default_ses_region,
+  $smtp_port           = $::amazon_ses::params::default_smtp_port,
+  $smtp_tls_ca_file    = $::amazon_ses::params::default_smtp_tls_ca_file,
   $smtpd_tls_cert_file = $::amazon_ses::params::default_smtpd_tls_cert_file,
-  $smtpd_tls_key_file = $::amazon_ses::params::default_smtpd_tls_key_file,
+  $smtpd_tls_key_file  = $::amazon_ses::params::default_smtpd_tls_key_file,
 ) inherits ::amazon_ses::params {
 
   anchor { 'amazon_ses::begin': }
