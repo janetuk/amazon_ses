@@ -17,8 +17,7 @@ if you choose port 25, make sure you apply for that restriction to be removed fr
 The intention of this module is to reduce the startup and configuration time of integration with
 Amazon SES and to avoid simple postfix configuration errors.  
 
-The current release is supported for debian based systems with Ubuntu as the tested platform.  
-Contributions are welcome for Redhat based systems.
+The current release is supported for Debian and Redhat based systems with Ubuntu as the tested platform.  
 
 ## Setup
 
