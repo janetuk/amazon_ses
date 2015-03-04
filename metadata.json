@@ -1,32 +1,31 @@
 {
+  "dependencies": [
+    {
+      "version_requirement": ">= 2.4.0",
+      "name": "puppetlabs/stdlib"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ],
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystemrelease": [
+        "7"
+      ],
+      "operatingsystem": "CentOS"
+    }
+  ],
   "name": "conzar-amazon_ses",
-  "version": "0.1.1",
+  "version": "99.99.99",
   "author": "conzar",
   "summary": "Sets up smtp through postfix for Amazon SES.",
   "license": "GPL-3.0+",
   "source": "git://github.com/Conzar/amazon_ses.git",
   "project_page": "https://github.com/Conzar/amazon_ses",
-  "issues_url": "https://github.com/Conzar/amazon_ses/issues",
-  "operatingsystem_support": [
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "12.04",
-        "14.04"
-      ]
-    },
-    {
-      "operatingsystem": "CentOS",
-      "operatingsystemrelease": [
-        "7"
-      ]
-    }
-  ],
-  "dependencies": [
-    {
-      "name": "puppetlabs/stdlib",
-      "version_requirement": ">= 2.4.0"
-    }
-  ]
+  "issues_url": "https://github.com/Conzar/amazon_ses/issues"
 }
-
