@@ -117,7 +117,7 @@ class amazon_ses (
 
   # check for OS Family
   case $::osfamily {
-    'debian', 'fedora', 'redhat': {
+    'debian', 'fedora', 'redhat', 'RedHat': {
       # debian (so ubuntu and debian are only supported)
       # we also support RedHat/CentOS and Fedora
     }
